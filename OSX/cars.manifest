@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 806469167
+CRC: 3630364584
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d738cbfcf21c2bf4da9c3ef22b7b1e88
+    Hash: 24bf611d12e4e6459d097318de12e845
   TypeTreeHash:
     serializedVersion: 2
     Hash: f73bf4575117d03472577b0bcfa36a4a
@@ -22,7 +22,6 @@ Assets:
 - Assets/Dump/T00_2_Y_FPV.jpg
 - Assets/Dump/T01_1_Y_GTA.jpg
 - Assets/Dump/T00_1_G_BIR.jpg
-- Assets/AssetBundles/WebGL/carsContent.txt
 - Assets/AssetBundles/OSX/carsContent.txt
 - Assets/Dump/T00_2_Y_GTA.jpg
 - Assets/Dump/T01_2_G_BIR.jpg
