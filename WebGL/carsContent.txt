@@ -1,4 +1,4 @@
-Assets/AssetBundles/carsContent.txt
+Assets/AssetBundles/WebGL/carsContent.txt
 Assets/Dump/T00_1_G_BIR.jpg
 Assets/Dump/T00_1_G_FPV.jpg
 Assets/Dump/T00_1_G_GTA.jpg
