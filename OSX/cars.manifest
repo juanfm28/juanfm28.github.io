@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 806469167
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d738cbfcf21c2bf4da9c3ef22b7b1e88
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f73bf4575117d03472577b0bcfa36a4a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Dump/T00_1_G_GTA.jpg
+- Assets/Dump/T01_2_G_GTA.jpg
+- Assets/Dump/T00_2_Y_BIR.jpg
+- Assets/Dump/T00_2_Y_FPV.jpg
+- Assets/Dump/T01_1_Y_GTA.jpg
+- Assets/Dump/T00_1_G_BIR.jpg
+- Assets/AssetBundles/WebGL/carsContent.txt
+- Assets/AssetBundles/OSX/carsContent.txt
+- Assets/Dump/T00_2_Y_GTA.jpg
+- Assets/Dump/T01_2_G_BIR.jpg
+- Assets/Dump/T01_1_Y_BIR.jpg
+- Assets/Dump/T00_1_G_FPV.jpg
+Dependencies: []
