@@ -1,16 +1,30 @@
 ManifestFileVersion: 0
-CRC: 2532232861
+CRC: 3388890319
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1261c12520159e1997f95757065b9ade
+    Hash: 525ab67cee5ce87b8fdc74bc42230ace
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+    Hash: f73bf4575117d03472577b0bcfa36a4a
 HashAppended: 0
 ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 Assets:
+- Assets/Dump/T00_1_G_GTA.jpg
+- Assets/Dump/T01_2_G_GTA.jpg
+- Assets/Dump/T00_2_Y_BIR.jpg
+- Assets/Dump/T00_2_Y_FPV.jpg
+- Assets/Dump/T01_1_Y_GTA.jpg
+- Assets/Dump/T00_1_G_BIR.jpg
 - Assets/AssetBundles/carsContent.txt
+- Assets/Dump/T00_2_Y_GTA.jpg
+- Assets/Dump/T01_2_G_BIR.jpg
+- Assets/Dump/T01_1_Y_BIR.jpg
+- Assets/Dump/T00_1_G_FPV.jpg
 Dependencies: []
