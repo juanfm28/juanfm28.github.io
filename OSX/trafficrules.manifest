@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 45635540
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 052fca2622ee6e6325a1631074b5b680
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e524609455c7cfb29b5bab3f5d3ec7c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Tasks/T031_2_G_GTA.png
+- Assets/Tasks/T061_1_Y_BIR.png
+- Assets/Tasks/T141_1_G_BIR.png
+- Assets/Tasks/T011_2_Y_GTA.png
+- Assets/Tasks/T141_2_Y_BIR.png
+- Assets/Tasks/T031_1_Y_GTA.png
+- Assets/Tasks/T071_1_Y_FPV.png
+- Assets/AssetBundles/OSX/trafficrulesContent.txt
+- Assets/Tasks/T071_2_G_BIR.png
+- Assets/Tasks/T061_2_G_BIR.png
+- Assets/Tasks/T071_2_G_FPV.png
+- Assets/Tasks/T031_2_G_FPV.png
+- Assets/Tasks/T141_1_G_FPV.png
+- Assets/Tasks/T031_1_Y_FPV.png
+- Assets/Tasks/T031_2_G_BIR.png
+- Assets/Tasks/T011_1_G_GTA.png
+- Assets/Tasks/T071_1_Y_BIR.png
+- Assets/Tasks/T061_2_G_FPV.png
+- Assets/Tasks/T061_1_Y_FPV.png
+- Assets/Tasks/T141_1_G_GTA.png
+- Assets/Tasks/T141_2_Y_FPV.png
+- Assets/Tasks/T011_2_Y_BIR.png
+- Assets/Tasks/T011_2_Y_FPV.png
+- Assets/Tasks/T061_1_Y_GTA.png
+- Assets/Tasks/T011_1_G_FPV.png
+- Assets/Tasks/T071_2_G_GTA.png
+- Assets/Tasks/T031_1_Y_BIR.png
+- Assets/Tasks/T061_2_G_GTA.png
+- Assets/Tasks/T071_1_Y_GTA.png
+- Assets/Tasks/T141_2_Y_GTA.png
+- Assets/Tasks/T011_1_G_BIR.png
+Dependencies: []
