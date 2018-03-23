@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 3355863247
+CRC: 639374563
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: cars
+      Name: trafficrules
       Dependencies: {}

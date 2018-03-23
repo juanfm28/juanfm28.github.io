@@ -1,17 +1,19 @@
 ManifestFileVersion: 0
-CRC: 3687674488
+CRC: 950292089
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 74268bb0521868a69a91c67d09cadc0e
+    Hash: 197ca5b555d50ae914c39d9cacf33c47
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6e524609455c7cfb29b5bab3f5d3ec7c
+    Hash: f73bf4575117d03472577b0bcfa36a4a
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 49
+  Script: {instanceID: 0}
+- Class: 213
   Script: {instanceID: 0}
 Assets:
 - Assets/Tasks/T031_2_G_GTA.png
