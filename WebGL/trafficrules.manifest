@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1313709017
+CRC: 2460293337
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0eec6ce590c615b2a424fa62c0bcb78f
+    Hash: 290d384ef426394ebe285283e1158b3b
   TypeTreeHash:
     serializedVersion: 2
     Hash: f73bf4575117d03472577b0bcfa36a4a
@@ -21,7 +21,6 @@ Assets:
 - Assets/Tasks/T013_2_Y_FPV.png
 - Assets/Tasks/T081_2_G_BIR.png
 - Assets/Tasks/T013_2_Y_GTA.png
-- Assets/Tasks/T013_2_Y_BIR.png
 - Assets/Tasks/T041_2_G_BIR.png
 - Assets/Tasks/T050_1_G_BIR.png
 - Assets/Tasks/T031_1_Y_FPV.png
@@ -52,7 +51,7 @@ Assets:
 - Assets/Tasks/T051_2_G_GTA.png
 - Assets/Tasks/T042_1_G_GTA.png
 - Assets/Tasks/T031_1_Y_GTA.png
-- Assets/Tasks/T081_2_Y_GTA.png
+- Assets/Tasks/T081_2_G_GTA.png
 - Assets/Tasks/T051_1_Y_FPV.png
 - Assets/Tasks/T042_2_Y_BIR.png
 - Assets/AssetBundles/WebGL/trafficrulesContent.txt
@@ -84,6 +83,6 @@ Assets:
 - Assets/Tasks/T011_1_G_GTA.png
 - Assets/Tasks/T041_1_Y_GTA.png
 - Assets/Tasks/T013_1_G_BIR.png
-- Assets/Tasks/T081_2_Y_FPV.png
+- Assets/Tasks/T081_2_G_FPV.png
 - Assets/Tasks/T061_1_Y_GTA.png
 Dependencies: []
