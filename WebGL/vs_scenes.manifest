@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 3218717261
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1842d65e7b739825e309dfed8dcafb43
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f73bf4575117d03472577b0bcfa36a4a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Tasks/T042_1_Y_GTA.png
+- Assets/Tasks/T051_1_G_BIR.png
+- Assets/Tasks/T011_1_G_BIR.png
+- Assets/AssetBundles/WebGL/vs_scenesContent.txt
+- Assets/Tasks/T082_1_G_GTA.png
+- Assets/Tasks/T052_1_Y_GTA.png
+- Assets/Tasks/T052_1_G_BIR.png
+- Assets/Tasks/T011_1_Y_GTA.png
+- Assets/Tasks/T071_1_Y_GTA.png
+- Assets/Tasks/T081_1_Y_GTA.png
+- Assets/Tasks/T061_1_G_BIR.png
+- Assets/Tasks/T082_2_G_GTA.png
+- Assets/Tasks/T042_1_G_GTA.png
+- Assets/Tasks/T071_1_Y_BIR.png
+- Assets/Tasks/T081_1_Y_BIR.png
+- Assets/Tasks/T051_1_Y_GTA.png
+- Assets/Tasks/T031_1_Y_BIR.png
+- Assets/Tasks/T061_1_Y_GTA.png
+- Assets/Tasks/T081_1_G_BIR.png
+- Assets/Tasks/T041_1_G_GTA.png
+- Assets/Tasks/T011_1_Y_BIR.png
+- Assets/Tasks/T052_1_Y_BIR.png
+- Assets/Tasks/T081_1_G_GTA.png
+- Assets/Tasks/T052_1_G_GTA.png
+- Assets/Tasks/T051_1_G_GTA.png
+- Assets/Tasks/T051_1_Y_BIR.png
+- Assets/Tasks/T041_1_Y_GTA.png
+- Assets/Tasks/T042_1_Y_BIR.png
+- Assets/Tasks/T071_1_G_BIR.png
+- Assets/Tasks/T061_1_G_GTA.png
+- Assets/Tasks/T061_1_Y_BIR.png
+- Assets/Tasks/T031_1_G_BIR.png
+- Assets/Tasks/T031_1_Y_GTA.png
+- Assets/Tasks/T041_1_Y_BIR.png
+- Assets/Tasks/T031_1_G_GTA.png
+- Assets/Tasks/T082_1_G_BIR.png
+- Assets/Tasks/T071_1_G_GTA.png
+- Assets/Tasks/T041_1_G_BIR.png
+- Assets/Tasks/T042_1_G_BIR.png
+- Assets/Tasks/T050_1_G_GTA.png
+- Assets/Tasks/T050_1_G_BIR.png
+- Assets/Tasks/T011_1_G_GTA.png
+Dependencies: []
