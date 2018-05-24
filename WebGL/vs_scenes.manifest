@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3218717261
+CRC: 2918016479
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1842d65e7b739825e309dfed8dcafb43
+    Hash: 0f183f60587384495e4b39413a8b2b02
   TypeTreeHash:
     serializedVersion: 2
     Hash: f73bf4575117d03472577b0bcfa36a4a
@@ -27,7 +27,6 @@ Assets:
 - Assets/Tasks/T071_1_Y_GTA.png
 - Assets/Tasks/T081_1_Y_GTA.png
 - Assets/Tasks/T061_1_G_BIR.png
-- Assets/Tasks/T082_2_G_GTA.png
 - Assets/Tasks/T042_1_G_GTA.png
 - Assets/Tasks/T071_1_Y_BIR.png
 - Assets/Tasks/T081_1_Y_BIR.png
