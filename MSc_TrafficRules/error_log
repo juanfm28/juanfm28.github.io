@@ -1,0 +1,2 @@
+[11-Jun-2018 17:23:01 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home4/juanfons/public_html/MSc_TrafficRules/saveMultiPlayerResults.php on line 35
+[11-Jun-2018 17:24:15 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home4/juanfons/public_html/MSc_TrafficRules/saveMultiPlayerResults.php on line 35

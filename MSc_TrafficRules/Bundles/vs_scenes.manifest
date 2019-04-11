@@ -1,0 +1,80 @@
+ManifestFileVersion: 0
+CRC: 446210957
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9416d48d7f9c6e27d4034fdbf8c356ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f73bf4575117d03472577b0bcfa36a4a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/VSTask/T021_G_Y_G.png
+- Assets/VSTask/T071_G_Y_G.png
+- Assets/VSTask/T061_G_Y_G.png
+- Assets/VSTask/T071_G_Y_E.png
+- Assets/VSTask/T051_G_Y_G.png
+- Assets/VSTask/T021_Y_G_B.png
+- Assets/VSTask/T041_G_Y_B.png
+- Assets/VSTask/T031_G_Y_B.png
+- Assets/VSTask/T040_G_G_B.png
+- Assets/VSTask/T041_Y_G_G.png
+- Assets/AssetBundles/WebGL/vs_scenesContent.txt
+- Assets/VSTask/T031_Y_G_E.png
+- Assets/VSTask/T011_Y_G_G.png
+- Assets/VSTask/T031_G_Y_E.png
+- Assets/VSTask/T051_Y_G_G.png
+- Assets/VSTask/T072_G_G_G.png
+- Assets/VSTask/T021_Y_G_E.png
+- Assets/VSTask/T041_G_Y_G.png
+- Assets/VSTask/T071_Y_G_E.png
+- Assets/VSTask/T051_Y_G_B.png
+- Assets/VSTask/T031_Y_G_G.png
+- Assets/VSTask/T071_Y_G_B.png
+- Assets/VSTask/T072_G_G_B.png
+- Assets/VSTask/T011_G_Y_E.png
+- Assets/VSTask/T040_G_G_E.png
+- Assets/VSTask/T061_G_Y_E.png
+- Assets/VSTask/T042_Y_G_G.png
+- Assets/VSTask/T021_G_Y_E.png
+- Assets/VSTask/T072_G_G_E.png
+- Assets/VSTask/T032_G_Y_B.png
+- Assets/VSTask/T021_G_Y_B.png
+- Assets/VSTask/T021_Y_G_G.png
+- Assets/VSTask/T071_Y_G_G.png
+- Assets/VSTask/T042_G_Y_B.png
+- Assets/VSTask/T061_Y_G_B.png
+- Assets/VSTask/T032_G_Y_G.png
+- Assets/VSTask/T032_Y_G_E.png
+- Assets/VSTask/T071_G_Y_B.png
+- Assets/VSTask/T032_Y_G_B.png
+- Assets/VSTask/T051_G_Y_B.png
+- Assets/VSTask/T042_G_Y_G.png
+- Assets/VSTask/T041_Y_G_B.png
+- Assets/VSTask/T061_Y_G_G.png
+- Assets/VSTask/T011_Y_G_B.png
+- Assets/VSTask/T042_G_Y_E.png
+- Assets/VSTask/T031_Y_G_B.png
+- Assets/VSTask/T042_Y_G_B.png
+- Assets/VSTask/T011_Y_G_E.png
+- Assets/VSTask/T011_G_Y_B.png
+- Assets/VSTask/T061_Y_G_E.png
+- Assets/VSTask/T051_G_Y_E.png
+- Assets/VSTask/T011_G_Y_G.png
+- Assets/VSTask/T051_Y_G_E.png
+- Assets/VSTask/T041_G_Y_E.png
+- Assets/VSTask/T040_G_G_G.png
+- Assets/VSTask/T031_G_Y_G.png
+- Assets/VSTask/T032_G_Y_E.png
+- Assets/VSTask/T042_Y_G_E.png
+- Assets/VSTask/T032_Y_G_G.png
+- Assets/VSTask/T041_Y_G_E.png
+- Assets/VSTask/T061_G_Y_B.png
+Dependencies: []
