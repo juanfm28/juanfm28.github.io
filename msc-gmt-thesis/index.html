@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The role of competition and perspective in game-based learning for traffic rules education</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>The role of competition and perspective in game-based learning for traffic rules education</h1>
+						<p>M.Sc. Thesis by Juan Antonio Fonseca Mendez<br />
+						M.Sc. Game and Media Technology, Universiteit Utretch.</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/gamevs.png" alt="" /></span>
+								<h2>Abstract</h2>
+								<p>Computer games as a tool for education have showed improvements in certain domains. Different game design elements have effects that can improve to different extents the quality of applications used in this game-based learning process. The present thesis examined the effect that two of these design elements, competition and visual perspective, have in the use of an application intended to be used in game-based learning. Driving education, in particular the set of rules that control the situation of two cars meeting at an intersection, provided a natural domain to experiment with these two elements in particular. <br/> <br/>
+								Using a prototype game where two players represent each car involved, analyse a static scene depicting the situation and choose the correct action to take, these effects are examined. The scenes show the situation from three different perspectives. The first one focuses on the player's car, the second one focuses on the opposing car and finally the scene is shown from a bird-eye view. The game declares the player that answers faster, but correctly, the winner for each scene, thus creating a competition environment. <br/> <br/>
+								During the experiment, two groups of participants play the game and their performances are measured in response time and correctness of their answers. After the experiment, the data shows that the player’s performance is hindered by views that require them to view themselves from the perspective of the other car. It also shows that the game with competition elements motivates the player to give answers faster, without this increase in speed impacting their ability to answer correctly. This in turn can be interpreted as they being more motivated to perform better by the game, a desired quality in educational games according to previous literature, although further work is needed to confirm this. <br/> <br/>
+								These effects could be used to create better tools in the same domain or other game-based learning applications, that include competition as part of the game and present information directly and clearly</p>
+
+								<h2>The game</h2>
+								<p> A prototype game was created to test the effects of the desired design elements of this thesis. In a similar manner to other tools used to practice for driving tests, the game presents users with a series of scenes depicting a situation with two cars at an intersection. The player always represents the same car, identified by an icon on the car. They must choose the appropiate action to take in that situation. The two possible answers are GO, to keep on their way, and YIELD, to wait for the other car to pass. This decision must be taken in a timely manner, indicated by the player in the form of a countdown timer. Their choice is evaluated and they are informed by the game if it is correct or not.
+								</p>
+
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-6"><span class="image fit"><img src="images/single.png" alt="" /></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/singlefeedback.png" alt="" /></span></div>
+									</div>
+								</div>
+
+								The competiton element is present in one of the versions of the game. Two players play agains each other analysing the same scene and they must choose the appropiate action for their own car, regardless of the viewpoint presented. The player that gives the correct answer first wins the round. If the first player to make a choice is incorrect, they cannot win. Only when none of the players are correct, the round is given to the faster player. The timer is shared by the two players, using markers with the player's icon. The timer indicates when the first one has made a decision, stopping their marker. The game evaluates both answers, compares the times and informs the player after each round if their answer was correct and who was the winner. The interface displays how many rounds each player has won at all times, as well as the number of correct answers the player has.
+
+								The base of this competition is that in a real driving situation, drivers have to react quickly, but they must follow the rules. Being faster is not enough to be better in these situations, so the game reflects that. The interface also gives more space to the number of correct answers the player has, even if they did not win. This is relevant because following the regulations in place is more important in these circumstances.
+
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-6"><span class="image fit"><img src="images/multi.png" alt="" /></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/multifeedback.png" alt="" /></span></div>
+									</div>
+								</div>
+
+								The interface is minimalistic. The main menu gives the players information about the context of the activity they will perform and the dynamic of the game.<br/>
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-6"><span class="image fit"><img src="images/UIMenu.png" alt="" /></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/UIInstructions.png" alt="" /></span></div>
+									</div>
+								</div>
+
+								<p>The game was created using the game engine <a href="http://unity.com">Unity</a>. This game engine allows quick prototyping and easy deployment to many different platforms. In this case it was implemented as a web application, for easy distribution during the experiment. It is highly modular, so is possible to extend the number of scenes the player is presented with and make some configurations for different tests without changing the code, through configuration files.<br/>
+
+								<a href="https://jafonsecagmt.github.io/MSc_TrafficRules/VS/index.html" class="button primary">Play it yourself!</a>
+								</p>
+
+								<h2>The scenes</h2>
+								The scenes represent typical situations covered in driving regulations. The users must observe the situation of the two cars and the environment to make a choice on what would be the correct action. To test the effects of different visual perspectives, each situation is presented from three different views<br/><br/>
+								<ul>
+									<li>Bird-eye view: All the elements are observed from above. This is the most traditional view used for this type of activity.</li>
+									<li>Third-person view centered in the player: This view puts the car represented by the player as the focus. The third person perspective allows seeing the elements of the environment more quickly.</li>
+									<li>Third-person view centered in the opponent: This view puts the car that does not represent the player as the focus. It requires the player to put themselves in the position of the other driver and analyse the situation from there.</li>
+								</ul>
+
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-4"><span class="image fit"><img src="images/birdeyeview.png" alt="" /></span>Bird-eye view</div>
+										<div class="col-4"><span class="image fit"><img src="images/enemyview.png" alt="" /></span>Third-person view focused on the adversary</div>
+										<div class="col-4"><span class="image fit"><img src="images/playerview.png" alt="" /></span>Third-person view focused on the player</div>
+									</div>
+								</div>
+								<p>The scenes were created using the game engine Unity. They are 2D captures of a 3D environment. This gives a middle ground between photographies, which are difficult to produce, and simple diagramas which are often too simple and less realistic. With the engine, many situations can be assembled quickly and they can be captured from many different perspectives easily. They can be integrated to the main game easily too.<br/><br/>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/scene-creation.png" alt="" /></span></div>
+										</div>
+									</div>
+								</p>
+
+								<h2>Experiment</h2>
+								<p>The game was distributed online, accompanied by a pre-game survey with demographic information about the participant anda post-game survey with a qualitative assessment of the user experience, their perception of the different visual perspectives and their perception of the competition when present . This assessment by the player was done using questions in a Likert-type scale, as well as open feedback.
+
+								During the experiment, given the difficulty to control the times when the participants play the game, an AI agent was used to simulate the opponent. The behaviour of this agent was modeled using the answers of real people gathered during testing. Using average times and accuracies of the answers, the agent uses intervals around them to make its behaviour less repetitive. Thus, it reacts as an average person would. The player is never informed that they are playing agains an AI, and the game mantains the idea that they are playing against a human.
+								</p>
+
+								<h2>Results</h2>
+								<div class="row">
+									<div class="col-12 col-12-medium">
+										During the experiment two main variables were registered by the game
+										<ul>
+											<li>Response time</li>
+											<li>Correctness of the answer</li>
+										</ul>
+										With this data, a statistical analysis was performed to find any differences and patterns. The main effects found are the following:
+										<ul>
+											<li>Players answer faster if they are playing a game with competition elements. This does not affect their ability to answer correctly</li>
+											<li>Players win against the AI more consistently as they advance through the game</li>
+											<li>Players take the same time answering regardless of the view. However, their answers have more mistakes when presented with a view from the perspective of the opposing car</li>
+											<li>These differences can be amplified for certain demographic differences, like the gender of the player or driving experience</li>
+											<li>Players take more time to make a decision when the situation demands them to yield to the other car. </li>
+										</ul>
+									</div>
+								</div>
+
+								<h2>Conclusions and recommendations</h2>
+								<div class="row">
+									<div class="col-12 col-12-medium">
+										<!--<h3>Main results</h3>-->
+										<ul>
+											<li>The results show that competition has an impact that could be considered as positive in how players are motivated to perform better. Thus, it is a desirable game desing element for educational serious games.</li>
+											<li>It was also shown that some perspectives make taking a decision difficult for the player, leading to more incorrect answers. Presenting the information in clear and direct way is more important than providing alternative views in a situation analysis task, in order to make a better decisions.</li>
+											<li>The data shows some unexpected results that can be used to further improve the quality of the proposed game.</li>
+											<li>The users reacted mostly positively to the design of this prototype. Further extension to this prototype could be used in a real educational environment</li>
+											<li>While the results are similar to those in previous literature, not all of them are conclusive and further exploration is desirable.</li>
+											<li>Refinining the experiment and carefully selecting the participants in certain demographic groups can give more useful information.</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Juan Antonio Fonseca M. . Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
