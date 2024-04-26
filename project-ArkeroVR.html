@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JAFM - Projects - Arkero VR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Portfolio - Juan Fonseca</a>
+				<nav>
+					<ul>
+						<li><a href="index.html#Projects">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Arkero VR</h1>
+							<span class="image right"><img src="images/arkero2.jpg" alt="" /></span>
+							<p>Arkero VR is a multiplayer VR arena game. Armed with your bow, you fight with your teammates against the hordes of evil.</p>
+							<p>The game was initially made for Meta Quest 2, and later a Steam version was created.</p>
+							<p>When I joined the team, our task was to start implementing the multiplayer version using the preexisting single-player campaign code as a base.</p>
+							<p>My contributions to this project were mostly in the side of the game mechanics, while other members of the team worked on some of the backend, like matchmaking</p>
+							<p>I also participated with the rest of the team in the game design of this multiplayer arena mode, and helped the team bringing better code and version control practices to our procedures, such as Conventiona Commits and Gitflow.</p>
+							<p>Here is a list with the main contributions I made to the project</p>
+							<ul>
+								<li>Reimplementing game mechanics using networking code<br/> This was done using the Photon Fusion framework for networking code. The movement and bow-and-arrow physics were already provided by Fusion samples. The rest was done in-house.
+									<ul>
+										<li>Shared game state and match management</li>
+										<li>Organized enemy management depending on the number of users to keep it balanced</li>
+										<li>Area-of-Effect powers for the arrows</li>
+										<li>Power ups for the arrows</li>
+										<li>Personal and group Health Points recovery</li>
+										<li>Power up items management</li>
+										<li>Synced Damage and score calculations</li>
+										<li>Kill Assists</li>
+										<li>Physical "HUD" for information on the game (score, health, etc)</li>
+									</ul>
+								</li>
+								<li>Implementation of the enemy AI in a networking context.<br/>While initially prototyped with an AssetStore pre-made solution (Emerald AI), I had the opportunity to implement our own custom solution when the pre-made one no longer suited our needs. This custom implementation was based on Behaviour trees and was programmed from scracth giving great results and much more flexibility to create new attacks and mechanics</li>
+								<li>Setting up a framework to allow for the rapid creation of new enemies to the game</li>
+								<li>Implementation of time-based events that affect the environment</li>
+								<li>Custom remote configuration solutions for several values needed for the game</li>
+								<li>User data retreival using the Meta API</li>
+								<li>Git repository management</li>
+							</ul>
+							<p>Here is a promotional video I created for the marketing updates of the game</p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/WpkVTo_qTdQ?si=cn_muPTwcvabQXJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							<p> </p>
+							<ul class="actions">
+								<li><a href="https://www.arkerovr.com/" class="button primary">Game website</a></li>
+								<li><a href="https://www.youtube.com/watch?v=rKF3DZ1NVVA" class="button primary">Game Trailer</a></li>
+								<li><a href="https://store.steampowered.com/app/2221270/Arkero_VR/" class="button primary">Steam link</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Juan Antonio Fonseca Portfolio. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
