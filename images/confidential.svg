@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#261c3e"/>
+      <stop offset="100%" stop-color="#3e4094"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- decorative circles -->
+  <circle cx="120" cy="90" r="90" fill="#5e42a6" opacity="0.25"/>
+  <circle cx="700" cy="430" r="120" fill="#b74e91" opacity="0.2"/>
+
+  <!-- lock icon -->
+  <g transform="translate(400,190)">
+    <rect x="-55" y="-10" width="110" height="90" rx="12" fill="#ffffff" opacity="0.92"/>
+    <path d="M -35 -10 L -35 -45 A 35 35 0 0 1 35 -45 L 35 -10" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.92"/>
+    <circle cx="0" cy="35" r="10" fill="#5e42a6"/>
+    <rect x="-5" y="35" width="10" height="26" rx="4" fill="#5e42a6"/>
+  </g>
+
+  <text x="400" y="335" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" text-anchor="middle">Confidential Client Work</text>
+  <text x="400" y="372" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d9d0f0" text-anchor="middle">Screenshots protected under NDA</text>
+</svg>
