@@ -1,0 +1,126 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Juan Antonio Fonseca Mendez} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+49 151 20179259 \\ Frankfurt(Main) area \\ Valid Working Permit for Germany}
+\address{\href{mailto:hello@juanfonseca.dev}{hello@juanfonseca.dev} \\ 
+\href{https://linkedin.com/in/juan-fonseca-mendez}{linkedin.com/in/juan-fonseca-mendez} \\ \href{https://juanfonseca.dev}{juanfonseca.dev}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Freelance Unity Developer} \hfill Mar 2024 - Present\\
+Self-Employed \hfill \textit{Remote}
+ \begin{itemize}
+    \itemsep -3pt {}
+    \item Developed a Meta Quest VR application for first-aid training as sole programmer, implementing scene management, multilingual narration via ElevenLabs TTS, and localization using Unity's Localization package, on top of an existing VRTK-based in-house framework.
+    \item Built a mobile Unity app integrating ChatGPT API for an AI-driven emotional wellness companion, implementing the full front-end including UI, async communication with the backend REST API, and Microsoft Cognitive Services for speech-to-text and text-to-speech.
+    \item \textbf{2nd place} at XR Creator Con 2024 (Best Use of ShapesXR) for a hackathon project: an AR plant-care app featuring AI-driven plant personalities.
+ \end{itemize}
+
+\textbf{Unity Developer} \hfill Nov 2022 - Oct 2023\\
+Interco LLC \hfill \textit{USA (Remote)}
+ \begin{itemize}
+    \itemsep -3pt {} 
+    \item Developed a multiplayer VR shooter for SteamVR and Meta Quest 2 using Photon Fusion for networking; implemented gameplay mechanics, environment behaviour, and user feedback systems.
+    \item Proposed and built a custom NPC AI system replacing an off-the-shelf solution, reducing the time to create a new enemy type from $\sim$1 day to a few hours.
+    \item Proposed and led adoption of GitFlow, Semantic Versioning, and Conventional Commits within a team of 3 developers and 1 technical artist, improving collaborative workflow and release management.
+    \item Integrated ChatGPT API and Microsoft Cognitive Services (STT/TTS) into Unity mobile apps; worked with Niantic Lightship ARDK for geolocation-based AR features.
+ \end{itemize}
+ 
+\textbf{Unity Developer} \hfill May 2022 - Aug 2022\\
+Wonder XR\hfill \textit{USA (Remote)}
+ \begin{itemize}
+    \itemsep -3pt {} 
+    \item Extended a gamified fitness VR app (1000+ beta users) for Meta Quest 2, adding localization, adversary AI, and UI/UX improvements.
+    \item Optimized post-processing pipeline, increasing framerate from \textasciitilde40 fps to 90 fps — bringing the app to Meta Store performance requirements.
+ \end{itemize}
+
+\textbf{Unity Developer} \hfill Jan 2021 - Apr 2022\\
+Yeltic Inc.\hfill \textit{Mexico City, Mexico}
+ \begin{itemize}
+    \itemsep -3pt {} 
+    \item Developed interactive AR training experiences for multiple industries, deployed on smartphone, PC, and Microsoft HoloLens 2 (using MRTK).
+    \item Implemented AR mini-games, UI/UX, push notifications, camera integration, and backend communication; contributed to internal developer tooling.
+ \end{itemize}
+
+\textbf{Game Programmer} \hfill Sep 2019 - Dec 2019\\
+GainPlay Studio B.V \hfill \textit{Utrecht, The Netherlands}
+ \begin{itemize}
+    \itemsep -3pt {} 
+    \item Contributed to architecture redesign of a serious game prototype for diet management; implemented core gameplay and UX systems in Unity.
+    \item Conducted code reviews to ensure code quality and maintainability standards across the team.
+ \end{itemize}
+
+ %\textbf{Lecturer} \hfill Sep 2019 - Dec 2019\\
+%Faculty of Engineering - Universidad Nacional Autonoma de Mexico \hfill \textit{Mexico City}
+% \begin{itemize}
+%    \itemsep -3pt {} 
+%     \item Main tasks: Main lecturer of the course on Data Structures and Algorithms I, given to Computer and Electrical Engineering students in their first year.
+% \end{itemize}
+
+\end{rSection} 
+
+%---------------------------------------------------------------------------
+%	EDUCATION SECTION
+%---------------------------------------------------------------------------
+
+\newpage
+\begin{rSection}{Education}
+
+{\bf Master of Science. Game and Media Technology} \hfill {April 2019}\\
+Universiteit Utrecht - The Netherlands\\
+Thesis: The role of competition and perspective in game-based learning for traffic rules education \\
+Supervisor: Sergey Sosnovsky, Ph.D. \\
+Cumulative average grade: 7.52 / 10\\
+
+{\bf Bachelor of Science. Computer Science Engineering} \hfill {June 2015} \\
+Universidad Nacional Autonoma de Mexico - Mexico\\
+Specialization on Computer Graphics and Intelligent Systems \\
+Cumulative average grade: 8.92 / 10 \\
+Relevant Coursework: Artificial Intelligence, Computer graphics, Computer Learning \\
+\\
+\end{rSection}
+
+\begin{rSection}{CONFERENCES}
+\vspace{-1.25em}
+\item \textbf{\textit{2022} Jalisco Talent Land — Technologies for the Metaverse} \\ {Speaker (presentation in Spanish)}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Expert & C\#, Unity Engine, VR/AR Development\\
+XR SDKs \& Tools & XR Interaction Toolkit, MRTK, VRTK, OpenXR, Niantic Lightship ARDK\\
+Networking & Photon PUN, Photon Fusion (multiplayer)\\
+Platforms & Meta Quest (2/3), HoloLens 2, SteamVR, Android, iOS\\
+AI Integration & ChatGPT API, Microsoft Cognitive Services (STT/TTS), ElevenLabs\\
+Architecture & MVC, Event-Driven (Observer pattern), Async/Await\\
+Workflow & Git, GitFlow, Semantic Versioning, Conventional Commits\\
+Additional & C++, Python, Unreal Engine\\
+Soft Skills & Code review, Interdisciplinary collaboration, Public speaking\\
+\end{tabular}\\
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Languages}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+German & A2 (actively studying, targeting B1)\\
+English & C2 (proficient)\\
+Spanish & Native\\
+Dutch & A1\\
+\end{tabular}\\
+\end{rSection}
+
+\end{document}
