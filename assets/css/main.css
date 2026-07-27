@@ -2827,6 +2827,27 @@ input, select, textarea {
 					display: none;
 				}
 
+/* Tech Tags */
+
+	ul.tech-tags {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+		margin: 0 0 1.5em 0;
+	}
+
+		ul.tech-tags li {
+			display: inline-block;
+			font-size: 0.75em;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			padding: 0.35em 0.85em;
+			margin: 0 0.5em 0.5em 0;
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			border-radius: 3em;
+			opacity: 0.75;
+		}
+
 /* Menu */
 
 	ul.menu {
